@@ -1,6 +1,6 @@
 {
-  "name": "turtlecoin-utils",
-  "version": "0.0.6",
+  "name": "obscure-utils",
+  "version": "0.0.2",
   "description": "A Node.js collection of utilities useful for TurtleCoin developers",
   "main": "index.js",
   "types": "index.d.ts",
@@ -8,20 +8,21 @@
     "test": "npm install && standard && node tests/tests.js"
   },
   "keywords": [
-    "TurtleCoin",
+    "Obscure",
     "Utilities"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/turtlecoin/turtlecoin-utils.git"
+    "url": "git+https://github.com/ObscureIM/obscure-utils.git"
   },
   "author": "Brandon Lehmann <brandonlehmann@gmail.com>",
   "contributors": [
-    "zpalmtree <22151537+zpalmtree@users.noreply.github.com>"
+    "zpalmtree <22151537+zpalmtree@users.noreply.github.com>",
+    "pauscrypto <pauscrypto@gmail.com>"
   ],
   "license": "GPL-3.0",
   "optionalDependencies": {
-    "turtlecoin-crypto": "0.0.3"
+    "obscure-crypto": "^0.0.2"
   },
   "dependencies": {
     "crc": "^3.8.0",
