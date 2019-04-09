@@ -29,7 +29,7 @@ const SHA3 = require('./lib/sha3.js')
    JS implementations of the crypto functions */
 var TurtleCoinCrypto
 try {
-  TurtleCoinCrypto = require('turtlecoin-crypto')
+  TurtleCoinCrypto = require('obscure-crypto')
 } catch (e) {
   /* Silence standardjs check */
   TurtleCoinCrypto = e
