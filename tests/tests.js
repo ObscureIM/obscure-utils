@@ -27,8 +27,8 @@ console.log('Out Mnemonic:     ', outputMnemonic.mnemonic)
 assert(rawSeed === outputSeed.seed)
 assert(rawMnemonic === outputMnemonic.mnemonic)
 
-const testAddress = 'TRTLv3nzumGSpRsZWxkcbDhiVEfy9rAgX3X9b7z8XQAy9gwjB6cwr6BJ3P52a6TQUSfA4eXf3Avwz7W89J4doLuigLjUzQjvRqX'
-const testAddressRaw = '9df6ee01f71e440f9a5aab08dbdab0f4f36bba813660a0600f109b1371dc53be33f23c99f0ba225065e1b9c2e43165b3e41f10fcb768853126dfa7e612a3df2deb332492cc073a66'
+const testAddress = 'XSC1XHccn5wGAbTqLmutcSK26uDD6PUP83n6cPRq8KerhWzyrimJpsnekpe5YvGafV6CPBxz1FozueQk2vPfHf6J2wQigrECnE'
+const testAddressRaw = 'b5f46ff71e440f9a5aab08dbdab0f4f36bba813660a0600f109b1371dc53be33f23c99f0ba225065e1b9c2e43165b3e41f10fcb768853126dfa7e612a3df2deb33249292d77c03'
 
 console.log('')
 console.log('In  Test Address: ', testAddress)

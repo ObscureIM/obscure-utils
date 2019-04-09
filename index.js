@@ -156,7 +156,6 @@ class CryptoNote {
 
   createAddressFromSeed (seed, lang, addressPrefix) {
     addressPrefix = addressPrefix || this.config.addressPrefix
-
     /* When we have a seed, then we can create a new key
        pair based on that seed */
     lang = lang || 'english'
@@ -193,7 +192,6 @@ class CryptoNote {
 
     /* Put the seed in there for good measure */
     keys.seed = seed
-
     return keys
   }
 
